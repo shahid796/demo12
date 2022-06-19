@@ -9,7 +9,7 @@ export default function PrintProduct({onadd}) {
 
   async function fetchProducts() {
     const response = await axios.post(
-      "http://fda.intertoons.com/api/V1/products",
+      "https://fda.intertoons.com/api/V1/products",
       {},
       {
         headers: {
